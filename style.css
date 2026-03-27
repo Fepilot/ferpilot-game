@@ -1,0 +1,30 @@
+/* ============================================================
+   style.css — Minimal styling for the game container
+   ============================================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050510;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+#game-container {
+  border: 2px solid #00ff88;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.15);
+}
+
+/* Hide Phaser's default scroll bars */
+canvas {
+  display: block;
+}
